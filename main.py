@@ -67,8 +67,8 @@ def Youtube_Sub_Searcher(url, q):
     return result
 
 if __name__ == '__main__':
-    test_url = "https://www.youtube.com/playlist?list=UUCKcF--89LBIP6Q5eaWXwJw"
-    test_q = 'семья'
+    test_url = "https://www.youtube.com/playlist?list=UUCKcF--89LBIP6Q5eaWXwJw"  # change this
+    test_q = 'семья' # change this 
 
     xxx = Youtube_Sub_Searcher(test_url, test_q)
     print(len(xxx))
